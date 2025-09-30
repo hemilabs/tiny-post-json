@@ -1,0 +1,51 @@
+{
+  "name": "tiny-post-json",
+  "version": "1.0.0",
+  "description": "Tiny wrapper around Fetch to POST JSON payloads to JSON APIs",
+  "keywords": [
+    "api",
+    "fetch",
+    "post",
+    "json",
+    "tiny"
+  ],
+  "bugs": "https://github.com/hemilabs/tiny-post-json/issues",
+  "license": "MIT",
+  "author": "Gabriel Montes <gabriel@hemi.xyz>",
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemilabs/tiny-post-json.git"
+  },
+  "scripts": {
+    "ci-checks": "npm run lint && npm run format:check && npm run deps:check",
+    "deps:check": "knip",
+    "format:check": "prettier --check .",
+    "lint": "eslint --max-warnings 0 .",
+    "prepare": "husky",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "tiny-fetch-json": "^2.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@types/node": "^22.15.32",
+    "better-sort-github-actions": "^1.0.0",
+    "better-sort-package-json": "^1.1.1",
+    "commitlint-config-bloq": "^1.1.0",
+    "eslint": "^8.57.1",
+    "eslint-config-bloq": "^4.5.0",
+    "husky": "^9.1.7",
+    "knip": "^5.54.1",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.5.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "types": "src/index.d.ts"
+}
