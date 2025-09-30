@@ -8,6 +8,10 @@
     {
       "extends": ["bloq/mocha", "prettier"],
       "files": ["*.test.js"]
+    },
+    {
+      "extends": ["bloq/typescript", "prettier"],
+      "files": ["*.ts"]
     }
   ],
   "root": true
