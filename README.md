@@ -1,5 +1,7 @@
 # tiny-post-json
 
+[![NPM version](https://img.shields.io/npm/v/tiny-post-json)](https://www.npmjs.com/package/tiny-post-json) [![Package size](https://img.shields.io/bundlephobia/minzip/tiny-post-json)](https://bundlephobia.com/package/tiny-post-json)
+
 Tiny wrapper around Fetch to POST JSON payloads to JSON APIs.
 
 ## Requirements
