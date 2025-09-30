@@ -39,7 +39,7 @@ POSTs the payload as JSON to the given URL.
 Type: `string | URL | Request`  
 The resource to fetch, i.e. the URL.
 
-### `payload`
+#### `payload`
 
 Type: `unknown`
 The payload to send to the API. It can be anything that can be stringified as JSON.
